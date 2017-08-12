@@ -1,0 +1,356 @@
+/*logo*/
+#logo-main{
+	height: 70px;
+	width:auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+/*body*/
+body{
+	letter-spacing: 1px;
+	background-color: #fff;
+	background:linear-gradient(
+      rgba(255, 255, 255, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ), url('../../background.jpg');
+	background-attachment: fixed;
+	text-align: center;
+	background-size: cover;
+}
+
+/*responsive*/
+@media screen and (max-width:360px){
+	.container{
+		width: 360px;
+	}
+}
+
+/*container*/
+.container{
+	height: auto;
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 25px;
+	width: 700px;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+/*Change details CSS*/
+#heading{
+	cursor: default;
+	padding-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: rgba(229,0,101,1);
+}
+
+/*Image*/
+#uploadimage{
+	margin-right:10px;
+	float:left; 
+	border-right:1px double rgba(229,0,101,0.7);
+	padding-right: 20px;
+}
+
+.image-container > a > img{ 
+	border-radius: 50%;
+	max-height: 200px;
+	max-width: auto;
+	border: 2px solid rgba(247,178,208,0.6);
+}
+
+#pictureupload{
+	float: center;
+}
+
+#changedescription{
+	margin-bottom: -10px;
+}
+
+/*image label*/
+#picture-label > img{
+	position: relative;
+	height:200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 3px solid rgba(247,178,208,1);
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#picture-label > img:hover{
+	opacity: 0.6;
+	cursor: pointer;
+	border: 3px solid rgba(229,0,101,1);
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#changeinf{
+	margin-top: 5px;
+	margin-bottom: -15px;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(229,0,101,1);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.desc > input{
+	display: none;
+}
+
+#upload-picture{
+	margin-top: 30px;
+}
+
+/*upload image*/
+.upload-button{
+	text-align: center;
+}
+
+.glyphicon{
+	color: rgba(247,178,208,1);
+}
+
+/*inputs*/
+#changeusername{
+	border: 1.5px solid rgba(247,178,208,1) ;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(229,0,101,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#changeusername:focus {   
+    border-color: rgba(229,0,101,1);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#changeusername::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 1;
+}
+
+#changeusername::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 1;
+}
+
+#changeusername::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 1;
+}
+
+#changename{
+	border: 1.5px solid rgba(247,178,208,1) ;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(229,0,101,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#changename:focus {   
+   border-color: rgba(229,0,101,1);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#changename::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 1;
+}
+
+#changename::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 1;
+}
+
+#changename::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 1;
+}
+
+/*submit name button*/
+#submitname{
+	margin-top: 15px;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	background-color: rgba(247,178,208,0.4);
+	height: 50px;
+	width: auto;
+	border: 2px solid rgba(229,0,101,0.4);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: rgba(229,0,101,0.6);
+	-moz-box-shadow:    2px 2px 2px 2px rgb(229,0,101);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(229,0,101);
+  	box-shadow:         2px 2px 2px 2px rgb(229,0,101);
+}
+
+#submitname:hover{
+	border: 2px solid rgba(229,0,101,1);
+	color: rgb(229,0,101);
+	opacity: 1;
+	transition:0.5s ease-in;
+	box-shadow: none;
+}
+
+/*picture upload button*/
+#pictureupload{
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	background-color: rgba(247,178,208,0.4);
+	height: 50px;
+	width: auto;
+	border: 2px solid rgba(229,0,101,0.4);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: rgba(229,0,101,0.6);
+	-moz-box-shadow:    2px 2px 2px 2px rgb(229,0,101);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(229,0,101);
+  	box-shadow:         2px 2px 2px 2px rgb(229,0,101);
+}
+
+#pictureupload:hover{
+	font-weight: bold;
+	border: 2px solid rgba(229,0,101,1);
+	color: rgb(229,0,101,1);
+	opacity: 1;
+	transition:0.5s ease-in;
+	box-shadow: none;
+}
+
+/*submit username button*/
+#submitusername{
+	margin-top: 15px;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	background-color: rgba(247,178,208,0.4);
+	height: 50px;
+	width: auto;
+	border: 2px solid rgba(229,0,101,0.4);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: rgba(229,0,101,0.6);
+	-moz-box-shadow:    2px 2px 2px 2px rgb(229,0,101);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(229,0,101);
+  	box-shadow:         2px 2px 2px 2px rgb(229,0,101);
+}
+
+#submitusername:hover{
+	border: 2px solid rgba(229,0,101,1);
+	color: rgb(229,0,101);
+	opacity: 1;
+	transition:0.5s ease-in;
+	box-shadow: none;
+}
+
+/*succes message*/
+.success{
+	font-size: 16px;
+	margin-top:10px; 
+	color:rgba(255,255,255,0.5);
+	font-family: 'Bad Script', cursive;
+}
+
+/*go back link*/
+#goback{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float:center;
+	margin-left:5px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(247,178,208,1);
+	font-size: 20px;
+	white-space: nowrap;
+	transition:0.5s ease-out;
+}
+
+#goback:after{
+	text-decoration: none;
+	content: '';
+	display: block;
+	margin: auto;
+	height:1px;
+	width: 0px;
+	background:transparent;
+	transition : width 0.5s ease, background-color 0.5s ease;
+	-webkit-transition : width 0.5s ease, background-color 0.5s ease;
+	-moz-transition : width 0.5s ease, background-color 0.5s ease;
+	-o-transition : width 0.5s ease, background-color 0.5s ease;
+}
+
+
+#goback:hover{
+	text-decoration: none;
+	color: rgba(229,0,101,1);
+	transition:0.5s ease-in;
+}
+
+#goback:hover:after{
+	text-decoration: none;
+	width: 100%;
+	background: rgba(229,0,101,1);
+}

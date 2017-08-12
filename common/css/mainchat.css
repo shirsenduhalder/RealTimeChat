@@ -1,0 +1,1953 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+.jumbotron{
+	background: transparent;
+	margin-top: -20px;
+}
+
+/*logo*/
+#logo{
+	display: block;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#logo-main{
+	height: 50px;
+	width: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+/*body*/
+body {
+   	position: relative;
+   	background-color: #fff;
+   	background-repeat: no-repeat;
+	background: linear-gradient(
+      rgba(255, 255, 255, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ), url('../../background.jpg');
+	background-attachment: fixed;
+	text-align: center;
+	 -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+/*responsive*/
+@media screen and (max-width: 360px){
+	#logo{
+		float: left !important;
+	}
+
+	#logo-main{
+		margin-top: 10px;
+	}
+	#details{
+		margin-top: 20px !important;
+	}
+	#chat-side-bar{
+		margin:0 10px 5px 0px;
+	}
+	#send{
+		width: 70%;
+		margin-top: 30px;
+		margin-bottom: -5px;
+	}
+	.btn{
+		margin-left: 5px !important;
+	}
+
+	.options{
+		padding: 0px !important;
+	}
+	#myimage{
+		margin-top: 2px !important;
+	}
+	#moreMessagesgroup{
+		margin-left: 5px !important;
+		margin-right: 7px !important;
+	}
+}
+
+
+@media screen and (min-width: 361px) and (max-width: 420px){
+	#logo-main{
+		float: left !important;
+	}
+	.description{
+		margin-top: 25px !important;
+	}
+	#details{
+		margin-top: -20px !important;
+	}
+	#chat-side-bar{
+		margin:0 10px 5px 0px;
+	}
+	#send{
+		width: 76%;
+		margin-top: 30px;
+		margin-bottom: -5px;
+	}
+	.btn{
+		margin-left: 5px !important;
+	}
+	.options{
+		padding: 0px !important;
+	}
+	#myimage{
+		
+	}
+	#moreMessagesgroup{
+		margin-left: 5px !important;
+		margin-right: 7px !important;
+	}
+}
+
+@media screen and (min-width: 421px) and (max-width: 550px){
+	.btn{
+		margin-left: 5px !important;
+	}
+	#moreMessagesgroup{
+		margin-left: 5px !important;
+		margin-right: 7px !important;
+	}
+}
+
+
+@media screen and (min-width:1025px) and (max-width: 1152px){
+	#chat-side-bar{
+		height: 550px !important;
+	}
+	#chatspace{
+		height: 410px !important;
+	}
+	.lefttext > p{
+		font-size: 15px !important;
+	}
+	.righttext > p{
+		font-size: 15px !important;
+	}
+	#logo-main{
+		height: 55px !important;
+	}
+}
+
+@media screen and (min-width:1153px) and (max-width: 1280px){
+	#chat-side-bar{
+		height: 700px !important;
+	}
+	#chatspace{
+		height: 550px !important;
+	}
+	.lefttext > p{
+		font-size: 17px !important;
+	}
+	.righttext > p{
+		font-size: 17px !important;
+	}
+	#logo-main{
+		height: 55px !important;
+	}
+	#recentlist > li{
+		font-size: 18px !important;
+	}
+	#showusers > li{
+		font-size: 18px !important;
+	}
+	#newgroup{
+		font-size: 20px !important;
+	}
+	#groupsul > li{
+		font-size: 18px !important;
+	}
+	#showgroupusers > li{
+		font-size: 18px !important;
+	}
+	#name{
+		font-size: 20px !important;
+	}
+	#moreMessages{
+		font-size: 33px !important;
+	}
+	#downBtn{
+		font-size: 33px !important;
+	}
+	#icon{
+		font-size: 33px !important;
+	}
+	#searchBox{
+		font-size: 18px !important;
+	}
+}
+
+@media screen and (min-width:1281px) and (max-width: 1600px){
+	#chat-side-bar{
+		height: 880px !important;
+		margin-bottom: 30px !important;
+	}
+	#chatspace{
+		height: 700px !important;
+	}
+	.lefttext > p{
+		font-size: 18px !important;
+	}
+	.righttext > p{
+		font-size: 18px !important;
+	}
+	.time{
+		font-size: 12px !important;
+	}
+	#logo-main{
+		height: 60px !important;
+	}
+	#recentlist > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#showusers > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#newgroup{
+		font-size: 24px !important;
+	}
+	#contactlist{
+		height: auto !important;
+	}
+	#grouplist{
+		height: auto !important; 
+	}
+	#groupsul > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#showgroupusers > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#showusers > li > .clearfix > .header_sec > .onlineicon{
+		margin-top: 7px !important;
+	}
+	.user{
+		padding: 14px 0 5px 0 !important;
+	}
+	#name{
+		font-size: 22px !important;
+	}
+	#moreMessages{
+		font-size: 36px !important;
+		margin-top: 8px !important;
+	}
+	#downBtn{
+		font-size: 36px !important;
+	}
+	#icon{
+		font-size: 36px !important;
+	}
+	#sendBtn{
+		font-size: 36px !important;
+	}
+	#details > h3{
+		font-size: 25px !important;
+	}
+	.options > ul > li > a{
+		font-size: 18px !important;
+	}
+	#searchBox{
+		font-size: 20px !important;
+	}
+	textarea{
+		font-size: 21px !important;
+		height:60px !important;
+	}
+	label{
+		font-size: 35px !important;
+	}
+}
+
+@media screen and (min-width:1601px) and (max-width: 1800px){
+	#chat-side-bar{
+		height: 880px !important;
+		margin-bottom: 30px !important;
+	}
+	#chatspace{
+		height: 700px !important;
+	}
+	.lefttext > p{
+		font-size: 18px !important;
+	}
+	.righttext > p{
+		font-size: 18px !important;
+	}
+	.time{
+		font-size: 12px !important;
+	}
+	#logo-main{
+		height: 60px !important;
+	}
+	#recentlist > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#showusers > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#newgroup{
+		font-size: 24px !important;
+	}
+	#contactlist{
+		height: auto !important;
+	}
+	#grouplist{
+		height: auto !important; 
+	}
+	#groupsul > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#showgroupusers > li{
+		padding: 9px 0 9px 25px !important;
+		font-size: 22px !important;
+	}
+	#showusers > li > .clearfix > .header_sec > .onlineicon{
+		margin-top: 7px !important;
+	}
+	.user{
+		padding: 14px 0 5px 0 !important;
+	}
+	#name{
+		font-size: 22px !important;
+	}
+	#moreMessages{
+		font-size: 36px !important;
+		margin-top: 8px !important;
+	}
+	#downBtn{
+		font-size: 36px !important;
+	}
+	#icon{
+		font-size: 36px !important;
+	}
+	#sendBtn{
+		font-size: 36px !important;
+	}
+	#details > h3{
+		font-size: 25px !important;
+	}
+	.options > ul > li > a{
+		font-size: 18px !important;
+	}
+	#searchBox{
+		font-size: 20px !important;
+	}
+	textarea{
+		font-size: 21px !important;
+		height:60px !important;
+	}
+	label{
+		font-size: 35px !important;
+	}
+}
+
+/*online icon*/
+#showusers > li > .clearfix > .header_sec > .onlineicon{
+	margin-top: 7px;
+}
+
+/*user description table*/
+#destable{
+	max-height: 70px;
+	cursor: default;
+}
+
+/*Button*/
+.btn{
+	position: relative;
+	z-index: 1000;
+	float: right;
+	background: transparent;
+	outline: none;
+	border:none;
+	height: auto;
+	width: auto;
+	margin-left: 15px;
+	padding-bottom: 10px;
+	padding: 0px;
+	margin-top: -20px;
+}
+
+.btn:focus{
+	outline: none;
+}
+
+#adduserlist{
+	
+}
+
+/*User detials wrapper div*/
+.description{
+	text-align: center;
+	margin-top: -25px;
+	border: none;
+}
+
+/*User details div*/
+#details{
+	margin-top: -65px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#row{
+	background: transparent;
+}
+
+/*user image dispayaed on top*/
+#myimage{
+	margin-top: 0px;
+	border-radius: 50%;
+	height: 68px;
+	width: 68px;
+	border:2px solid rgba(229,0,101,0.8);
+}
+
+/*User name displayed on top*/
+#details > h3{
+	display: inline;
+	font-weight: bolder;
+	font-family: 'Unica One', cursive;
+	font-size: 17px;
+	color: rgba(51,21,36,1);
+}
+
+/*Edit logout options css*/
+
+.options{
+	padding-right:10%;
+	margin-bottom: -15px; 
+	margin-left: -40px;
+}
+
+.options > ul{
+	text-align: right;
+	list-style-type: none;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+.options > ul > li{
+	display: inline-block;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-right: 3px;
+	margin-left: 10px;
+}
+
+.options> ul > li > a{
+	font-weight: bolder;
+	letter-spacing: 1px;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(33,33,33,0.7);
+	font-size: 14px;
+	white-space: nowrap;
+	transition:0.5s ease-out;
+}
+
+.options > ul > li > a:after{
+	text-decoration: none;
+	content: '';
+	display: block;
+	margin: auto;
+	height:2px;
+	width: 0px;
+	background:transparent;
+	transition : width 0.5s ease, background-color 0.5s ease;
+	-webkit-transition : width 0.5s ease, background-color 0.5s ease;
+	-moz-transition : width 0.5s ease, background-color 0.5s ease;
+	-o-transition : width 0.5s ease, background-color 0.5s ease;
+}
+
+.options > ul > li > a:hover{
+	text-decoration: none;
+	color: rgb(229,0,101);
+	opacity: 1;
+	transition:0.5s ease-in;
+}
+
+.options > ul > li > a:hover:after{
+	text-decoration: none;
+	width: 100%;
+	background: rgb(229,0,101);
+	opacity: 1;
+}
+
+/*chat side bar css*/
+#chat-side-bar{
+	margin-top: 5px;
+	padding-top: 10px;
+	border-bottom: 15px rgba(247,178,208,1) solid;
+	border-radius: 10px;
+	height: 470px;
+	overflow-x:hidden;
+	overflow-y: scroll; 
+	background-color: rgba(247,178,208,1.2);
+}
+
+#chat-side-bar::-webkit-scrollbar-track
+{
+	margin-top: 3px;
+	-webkit-box-shadow: inset 0 0 6px rgba(229,0,101, 1);
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+#chat-side-bar::-webkit-scrollbar
+{
+	width: 9px;
+	background-color: transparent;
+}
+
+#chat-side-bar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#radiodiv{
+	text-align: center;
+}
+
+/*radio div*/
+.radios{
+	max-width: auto;
+	margin: 0 auto;
+	font: normal 1em/1.5 'Raleway';
+	display: table;
+}
+
+/*radio buttons css*/
+input[type="radio"]{
+	margin:0 16px 0 0px;
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	transition:0.3s ease;
+}
+
+
+label {
+	position: relative;
+	z-index: 0;
+	font-size: 30px;
+	white-space: normal;
+	min-width: 15%;
+	max-width: 20%;
+	height: auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	background-color: transparent;
+	color: rgba(255,255,255,0.6);
+	border-radius: 3px;
+	transition:0.3s ease;
+}
+
+input[type="radio"]:checked + label{
+	color: rgba(229,0,101,1);
+	transition:0.3s ease;
+}
+
+input[type="radio"]:not(:checked):hover + label{
+	color: rgba(255,255,255,1);
+	transition:0.3s ease;
+}
+
+#onlineradio:checked + label{
+	color: white;
+	transition:0.3s ease;
+}
+
+#onlineradio:checked + label i{
+	color: rgba(0,255,0,1);
+}
+
+#onlineradio:not(:checked):hover{
+	color: rgba(255,255,255,1);
+	transition:0.3s ease;
+}
+
+#onlinelabel:hover{
+	color: rgba(255,255,255,1);
+	transition:0.3s ease;
+}
+
+#onlinelabel:hover i{
+	color: rgb(0,255,0);
+	transition:0.5s ease;
+}
+
+/*search chat side bar wrapper divs*/
+#custom-search-input{
+	background: transparent;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	margin-bottom: 2px;
+	margin-top:10px;
+	padding-left: 10px;
+	width:100%;
+	border-radius: 20px;
+}
+
+#groupsunread{
+	color:white;
+	font-size:14px;
+	padding-left:15px;
+	display:inline-block;
+	float:left
+}
+
+#searchmodalbutton{
+	border-radius:20px;
+	width:40px; 
+	height:40px; 
+	float: right;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.7);
+	border: 2px solid rgba(229,0,101,0.7);
+	box-shadow: none;
+	outline:none;
+	border-radius: 50%;
+	font-size: 16px;
+	color: rgba(0,0,0,0.7);
+	-moz-box-shadow:    1px 1px 1px 1px rgb(229,0,101);
+  	-webkit-box-shadow: 1px 1px 1px 1px rgb(229,0,101);
+  	box-shadow:         1px 1px 1px 1px rgb(229,0,101);
+  	transition:0.5s ease-out;
+}
+
+#searchmodalbutton:hover{
+	border: 2px solid rgba(229,0,101,1);
+	color: rgba(229,0,101,1);
+	opacity: 1;
+	transition:0.5s ease-in;
+	box-shadow: none;
+}
+
+/*chat side bar search input css*/
+#searchBox{
+	border: 1.5px solid rgba(229,0,101,0.7);
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+	color: rgba(229,0,101,1);
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#searchBox:focus {   
+    border: 1.5px solid rgba(229,0,101,1);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#searchBox::-webkit-input-placeholder{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: rgb(229,0,101);
+	opacity: 0.6;
+}
+
+#searchBox::-moz-placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(229,0,101);
+	font-weight: bolder;
+	opacity: 0.6;
+}
+
+#searchBox::-ms-input-placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(229,0,101);
+	font-weight: bolder;
+	opacity: 0.6;
+}
+
+/*modal css*/
+#inputmodal{
+	border-radius: 20px; 
+	height: 40px;
+	display: inline;
+	float: left;
+	border: 1.5px solid rgba(229,0,101,0.5);
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+	color: rgba(229,0,101,1);
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#inputmodal:focus {   
+    border: 1.5px solid rgba(229,0,101,1);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+/*placeholders for modaol and groupname input*/
+#inputmodal::-webkit-input-placeholder{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: rgb(229,0,101);
+	opacity: 0.6;
+}
+
+#inputmodal::-moz-placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(229,0,101);
+	font-weight: bolder;
+	opacity: 0.6;
+}
+
+#inputmodal::-ms-input-placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(229,0,101);
+	font-weight: bolder;
+	opacity: 0.6;
+}
+
+#groupname::-webkit-input-placeholder{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: rgb(229,0,101);
+	opacity: 0.6;
+}
+
+#groupname::-moz-placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(229,0,101);
+	font-weight: bolder;
+	opacity: 0.6;
+}
+
+#groupname::-ms-input-placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: rgb(229,0,101);
+	font-weight: bolder;
+	opacity: 0.6;
+}
+
+/*search result css*/
+#result{
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.95);
+	text-align: center;
+	position: fixed;
+	z-index: 10;
+	width: 22%;
+}
+
+#result > li{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Raleway', cursive;
+	font-size: 15px;
+	border-bottom: 1px solid rgba(255,255,255,1);
+	margin-right:10px; 
+	text-align:center; 
+	padding-top:5px; 
+	margin-bottom:10px; 
+	color:rgba(255,255,255,0.6); 
+	background-color:rgba(229,0,101,0.8); 
+	height:30px; 
+	width:auto;
+	border-radius: 5px;
+	transition : 0.5s ease;
+}
+
+#result > li:hover{
+	font-weight: bolder;
+	border-bottom: 1px solid rgba(255,255,255,1);
+	color:rgba(255,255,255,1); 
+	transition : 0.5s ease;
+	cursor: pointer;
+}
+
+.chat-container{
+	height: 80%;
+	margin-top: -5px;
+}
+
+/*List css of chat-side-bar*/
+.list-unstyled{
+	margin-top: 6px;
+}
+
+.names{
+	height :65px;
+}
+
+#contactlist{
+	margin-top: 10px;
+	height: 500px;
+   	overflow-x: hidden;
+   	overflow-y: auto;
+}
+
+#grouplist{
+	margin-top: 20px;
+	height: 500px;
+   	overflow-x: hidden;
+   	overflow-y: auto;
+   	margin-right: 4px;
+}
+
+#showusers{
+	padding: 0px 0px 0px 5px;
+	margin-right: 10px;
+}
+
+/*scrollbar for group list*/
+#grouplist::-webkit-scrollbar{
+	width: 4px;
+	cursor: pointer;
+}
+
+#grouplist::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(236,76,145,0.7);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#grouplist::-webkit-scrollbar-thumb{
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgba(229,0,101,0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(236,76,145,0.5);
+	cursor: pointer;
+}
+
+#grouplist::-webkit-scrollbar-thumb:window-inactive{
+	background: rgba(229,0,101,0.4);
+}
+
+/*Scroll bar for all and online users*/
+#contactlist::-webkit-scrollbar{
+	width: 4px;
+	cursor: pointer;
+}
+
+#contactlist::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(236,76,145,0.7);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#contactlist::-webkit-scrollbar-thumb{
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgba(229,0,101,0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(236,76,145,0.5);
+	cursor: pointer;
+}
+
+#contactlist::-webkit-scrollbar-thumb:window-inactive{
+	background: rgba(229,0,101,0.4);
+}
+
+/*list that shows all and online users*/
+#showusers > li{
+	text-align: left;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius:10px; 
+	margin-bottom:10px;
+	font-family: 'Quicksand',sans-serif;
+	border: 1.8px rgba(229,0,101,0.8) solid;
+	color: rgba(229,0,101,0.8);
+	background-color:transparent;
+	transition: 0.5s ease;
+}
+
+#showusers > li:hover{
+	color: rgba(255,255,255, 1);
+	transition:0.5s ease;
+}
+
+#showusers > li:hover  .clearfix > .header_sec > img{
+	border:2px solid rgba(255,255,255,1);
+	transition:0.5s ease;
+}
+
+#showusers > li > .clearfix > .header_sec > img{
+	border: 2px solid rgba(229,0,101,1);
+	transition:0.5s ease;
+}
+
+/*messages time display*/
+.lefttext > .time{
+	font-size: 10px;
+	font-weight: bold;
+	color:rgba(0,0,0,0.8);
+	float: right;
+	margin-left: 20px;
+	vertical-align: -10px;
+}
+
+.righttext > .time{
+	font-size: 10px;
+	font-weight: bold;
+	color:rgba(0,0,0,0.8);
+	float: right;
+	margin-right: 20px;
+	vertical-align: -10px;
+}
+
+/*list of all groups when clicked on the group radio button*/
+#groupsul >li{
+	text-align: left;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+	padding-bottom: 5px;
+	border-radius:10px; 
+	margin-bottom:10px;
+	font-family: 'Quicksand',sans-serif;
+	border: 2px rgba(229,0,101,0.8) solid;
+	color: rgba(229,0,101,0.8);
+	background-color:transparent; 
+	transition: 1s ease;
+}
+
+#groupsul > li:hover{
+	color: rgba(255,255,255, 1);
+	transition:1s ease;
+}
+
+/*Shows users when you click new group*/
+#showgroupusers{
+	padding: 0px 0px 0px 5px;
+	margin-right: 10px;
+}
+
+#showgroupusers > li > img{
+	margin-top: 5px;
+}
+#showgroupusers > li{
+	text-align: left;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius:10px; 
+	margin-bottom:10px;
+	font-family: 'Quicksand',sans-serif;
+	border: 1.8px rgba(229,0,101,0.8) solid;
+	color: rgba(229,0,101,0.8);
+	background-color:transparent; 
+	transition: 0.5s ease;
+}
+
+/*recentlist wrapper div*/
+#recent{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background-color: transparent;
+	color: rgba(229,0,101,1);
+	height: 40px;
+	padding-top: 2px;
+	overflow-y: hidden;
+	height: auto;
+}
+
+#recent > p{
+	text-decoration: underline;
+	margin-top: 2px;
+	margin-left: 3px;
+	font-size: 22px;
+}
+
+/*List that dispalys the recent conversation css*/
+#recentlist{
+	padding: 10px 5px 0px 5px;
+	margin-right: 10px;
+}
+
+#recentlist > li{
+	font-family: 'Quicksand',sans-serif;
+	text-align: left;
+	margin-bottom: 5px;
+	font-size:15px;
+	font-weight:bold;
+	cursor:pointer;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius:10px; 
+	padding-left: 20px;
+	border: 1.8px rgba(229,0,101,0.8) solid;
+	color: rgba(229,0,101,0.8);
+	background-color:transparent; 
+	margin-bottom:10px;
+	transition: 0.5s ease;
+}
+
+#recentlist > li:hover{
+	color: rgba(255,255,255,1);
+	transition:0.5s ease;
+}
+
+#recentlist > li > #unreadnumber{
+	display: inline-block;
+	margin-left: 4px;
+}
+
+#content{
+	clear: both;
+}
+
+/*new group button*/
+#newgroup{
+	margin-top: 10px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	font-family: 'Poiret One', cursive;
+	background-color: rgba(236,76,145,0.1);
+	height: auto;
+	width: auto;
+	border: 2px solid rgba(229,0,101,0.4);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 17px;
+	color: rgba(229,0,101,0.8);
+	-moz-box-shadow:    2px 2px 2px 2px rgb(229,0,101);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(229,0,101);
+  	box-shadow:         2px 2px 2px 2px rgb(229,0,101);
+}
+
+#newgroup:hover{
+	border: 2px solid rgba(229,0,101,1);
+	color: rgba(229,0,101,1);
+	transition:0.5s ease-in;
+	box-shadow: none;
+}
+
+.groupnamecontainer { 
+	margin-top: 15px;
+	display: flex; 
+}
+.groupnamecontainer .groupnameinput { flex: 1; }
+
+#groupnameicon{
+	height: auto;
+	border-radius: 50%;
+	color: rgba(247,178,208,0.5) ;
+}
+
+/*group name button*/
+.groupnamebutton{
+	margin-left: 7px;
+}
+
+#groupnamebutton{
+	outline: none;
+	border: none;
+	display: inline;
+	padding:0px;
+	background:transparent;
+}
+
+#groupsendicon{
+	font-size: 40px;
+	transition:0.75s ease;
+	color: rgba(229,0,101,0.5);
+}
+
+#groupsendicon:hover{
+	transition:0.75s ease;
+	color: rgba(229,0,101,1);
+}
+
+/*groupname input*/
+#groupname{
+	z-index: 0;
+	position: relative;
+	width:100%;
+	border: 1.5px solid rgba(229,0,101,0.6) ;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(229,0,101,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#groupname:focus{
+	border-color: rgba(229,0,101,1);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#groupname::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 0.8;
+}
+
+#groupname::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 0.8;
+}
+
+#groupname::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: rgb(247,178,208);
+	opacity: 0.8;
+}
+
+
+
+#chat-section{
+	padding-top: 5px;
+}
+
+/*.user css. This diaplays the name,image in case of private and name,list of users and buttons in case of a group*/
+.header_sec{
+	padding-right: 7px;
+	position: inherit;
+	padding-left: 12px;
+	margin-left: 3px;
+}
+
+.user{
+	cursor: default;
+	overflow: hidden;
+	color: rgba(229,0,101,1);
+	font-family: 'Quicksand', sans-serif;
+	background-color: rgba(247,178,208,0.9);
+	border-radius: 20px;
+	margin-right: 10px;
+	text-align: left;
+	padding-top: 5px;
+}
+
+.user > img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	border: 2px rgba(229,0,101,1) solid;
+	cursor: pointer;
+	transition:0.3s;
+}
+
+.user > img:hover{
+	opacity: 0.7;
+}
+
+/*group member list in .user*/
+#groupmemberlist{
+	font-size: 10px !important;
+	margin-left:30px;
+	margin-right: 30px; 
+	float: left;
+	width: 70%;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+#changegroupname{
+	height: 40px;
+	border:2px solid rgba(229,0,101,1);
+	color: rgba(229,0,101);
+	font-size: 30px;
+}
+
+/*modal css*/
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(25,2,14,0.9); 
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: auto;
+    max-width: 700px;
+}
+
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+#modalcontainer::-webkit-scrollbar{
+	width: 6px;
+}
+
+#modalcontainer::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(229,0,101,0.7);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+#modalcontainer::-webkit-scrollbar-thumb{
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.8);
+}
+
+#modalcontainer::-webkit-scrollbar-thumb:window-inactive{
+	background: rgba(255,255,255,0.4);
+}
+
+#modalcontainer{
+	display: block;
+	margin: auto;
+	background-color: rgba(255,255,255,0.7);
+	max-height: 80%;
+	height: auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+	max-width: 500px;
+	cursor: default;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#modalcontainer > div{
+	overflow: none;
+	padding: 20px;
+	height: auto;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: rgba(229,0,101,1);
+	text-decoration: underline;
+}
+
+#modalList{
+	margin-top: 30px;
+    display: block;
+    width: auto;
+    max-width: 500px;
+}
+
+#modalList{
+	-webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+#modalList > li{
+	padding-top: 15px;
+	font-family: 'Quicksand',sans-serif;
+	text-align: left;
+	margin-bottom: 5px;
+	font-size:20px;
+	font-weight:bold;
+	cursor:pointer;
+	padding-bottom: 15px;
+	border-radius:10px; 
+	padding-left: 20px;
+	border: 1.8px rgba(229,0,101,0.8) solid;
+	color: rgba(229,0,101,0.8);
+	background-color:transparent; 
+	margin-bottom:10px;
+	transition: 0.5s ease;
+}
+
+#modalList > li:hover{
+	color: rgba(255,255,255,1);
+	transition:0.5s ease;
+}
+
+#modalList > li > img{
+	border: 2px solid rgba(229,0,101,0.7);
+	margin-right: 5px;
+	transition:0.5s ease;
+}
+
+#modalList > li:hover img{
+	border:2px solid rgba(255,255,255,0.8);
+	transition:0.5s ease;
+}
+
+#modalbutton{
+	text-align: center;
+	padding: 20px;
+	background: rgba(255,255,255,0.5);
+	border-top: 5px solid rgba(229,0,101,0.7);
+	width: 500px;
+	display: block;
+	margin: auto;
+}
+
+#modalbutton > button{
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	background-color: rgba(236,76,145,0.2);
+	height: 50px;
+	width: auto;
+	border: 2px solid rgba(229,0,101,0.4);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size:30px;
+	color: rgba(229,0,101,0.8);
+	-moz-box-shadow:    2px 2px 2px 2px rgb(229,0,101);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(229,0,101);
+  	box-shadow:         2px 2px 2px 2px rgb(229,0,101);
+}
+
+#modalbutton > button:hover{
+	border: 2px solid rgba(229,0,101,1);
+	color: rgba(229,0,101,1);
+	opacity: 1;
+	transition:0.5s ease-in;
+	box-shadow: none;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: rgba(229,0,101,0.8);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: rgba(236,76,145,1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#close2{
+	 position: absolute;
+    top: 15px;
+    right: 35px;
+    color: rgba(229,0,101,0.8);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#close2:hover,
+#close2:focus{
+	color: rgba(236,76,145,1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#online{
+	display: table-row-group;
+	margin-top: 30px;
+	color: white;
+	position: inherit;
+	left: 20%;
+}
+
+/*name of the person whose name is clicked*/
+#name{
+	line-height: 20px;
+	display: inline;
+	font-size: 17px;
+	font-weight: bolder;
+	margin-left: 7px;
+	color: rgba(229,0,101,1);
+}
+
+/*more messages button private*/
+#moreMessages{
+	cursor: pointer;
+	color: rgba(229,0,101,0.5);
+	font-size: 30px;
+	float:right;
+	transition:0.5s ease;
+	margin-right: 15px;
+	margin-top: 12px;
+}
+
+#moreMessages:hover{
+	color: rgba(229,0,101,1);
+	transition:0.5s ease;
+}
+
+/*name bar in case of group*/
+.user > button{
+	margin-bottom: 3px;
+	border: none;
+	outline:none;
+}
+
+.user > button > i{
+	color: rgba(229,0,101,0.7);
+	transition:0.5s ease;
+}
+
+.user > button > i:hover{
+	color: rgba(229,0,101,1);
+	transition:0.5s ease;
+}
+
+#usergroupname{
+	font-size: 18px;
+	margin-left: 28px;
+}
+
+#groupicons{
+	display: inline;
+}
+
+table{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+tr{
+	margin-top: -5px;
+}
+
+/*chatspace wrapper div*/
+#chatspacebackground{
+	margin-top: 10px;
+}
+
+/*Chatspace css and scrollbar*/
+#chatspace{
+	position: relative;
+	z-index: 0;
+	margin-right: 20px;
+	height: 320px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	padding:8px;
+}
+
+#chatspace::-webkit-scrollbar{
+	width: 8px;
+	cursor: pointer;
+}
+
+#chatspace::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(236,76,145,0.7);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#chatspace::-webkit-scrollbar-thumb{
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgba(229,0,101,0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(236,76,145,0.5);
+	cursor: pointer;
+}
+
+#chatspace::-webkit-scrollbar-thumb:window-inactive{
+	background: rgba(229,0,101,0.4);
+}
+
+/*group notification box when clicked on the group radio. Only present if you are added to a new group*/
+#groupnotification{
+	text-align: center;
+}
+
+#groupbox{
+	font-family: 'Quicksand',sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+/*Displayed when there are no messages exchanged*/
+.firstmessage{
+	overflow: hidden;
+	display: block;
+	margin: 20px auto 0px auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	width: 60%;
+	color:rgba(255,255,255,0.9); 
+	background-color:rgba(229,0,101,0.6);
+	border-radius:20px;
+	padding-bottom: 10px;
+}
+
+/*messages div css*/
+#messages{
+	margin-top: -20px;
+	cursor: default;
+}
+
+/*chatsapace message boxes css*/
+.textbox{
+	clear: both;
+}
+
+.righttext{
+	height: auto;
+	font-family: 'Open Sans', sans-serif;
+	border:2px solid rgba(236,76,145,0.7);
+	color: white;
+	text-align: left;
+    background:rgba(236,76,145,0.9);
+   	margin-top:16px;
+    margin-right: 10px;
+    padding: 4px 9px 0px 9px;
+    position:relative;
+    border-radius:10px;
+    max-width: 70%;
+    float:right;
+    word-wrap:break-word;
+    cursor: text;
+}
+
+.righttext:after{
+    content:"";
+    width:0;
+    height:0;
+    border-top:10px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 20px solid rgba(236,76,145,0.9);
+    right:-20px;
+    position: absolute;
+    top:8px;
+}
+
+.lefttext{
+	height: auto;
+	font-family: 'Open Sans', sans-serif;
+	border:2px solid rgba(229,0,101,0.8);
+	color: white;
+	text-align: left;
+    background:rgba(229,0,101,1);
+    padding: 4px 9px 0px 9px;
+    margin-top:16px;
+    margin-left: 12px;
+    position:relative;
+    border-radius:14px;
+    max-width:70%;
+    float: left;
+    word-wrap:break-word;
+    cursor: text;
+}
+
+.lefttext:after{
+	content:"";
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-right:20px solid rgba(229,0,101,1);
+	left:-20px;
+	position: absolute;
+	top:8px;
+}
+
+.header_sec > i{
+	margin-right: 3px;
+}
+
+.righttext > p{
+	white-space: pre-wrap;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.lefttext > p{
+	white-space: pre-wrap;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+/*textarea*/
+textarea{
+	margin-top: 30px;
+	font-family: 'Quicksand',sans-serif;
+	background-color: rgba(229,0,101,0.2);
+	font-size: 15px;
+	width:85%;
+	border-radius: 20px;
+	border: 2px rgba(229,0,101,0.6) solid;
+	padding-top: 5px;
+	padding-right: 10px;
+	outline: none;
+	padding-left: 25px;
+	transition: 0.75s ease;
+	color: white;
+	resize:none;
+}
+
+textarea:hover{
+	background-color: transparent;
+	color: rgb(255,255,255);
+	border: 2px rgba(229,0,101,1) solid;
+	transition: 0.75s ease;
+}
+
+textarea:focus{
+	font-family: 'Quicksand',sans-serif;
+	background-color: transparent !important;
+	color:rgba(229,0,101,1) !important;
+	font-size: 15px;
+	border-radius: 20px;
+	border: 2px rgba(229,0,101,1) solid;
+	outline: none;
+	padding-left: 25px;
+}
+
+textarea::-webkit-input-placeholder{
+	color: rgba(255,255,255,0.8);
+}
+
+textarea::-moz-placeholder{
+	color: rgba(255,255,255,0.8);
+}
+
+textarea::-ms-input-placeholder{
+	color: rgba(255,255,255,0.8);
+}
+
+/*send button private*/
+#sendBtn{
+	margin-left: 5px;
+	outline: none;
+	position: relative;
+	background: none;
+	padding: 0 0 0 0;
+	border:none;
+	margin-right: 3px;
+}
+
+/*send button for group*/
+#sendBtnGroup{
+	margin-left: 5px;
+	outline: none;
+	position: relative;
+	background: none;
+	padding: 0 0 0 0;
+	border:none;
+	margin-right: 3px;
+}
+
+/*send icon*/
+#icon{
+	margin-top:10px;
+	color:rgba(229,0,101,0.5);
+	font-size:30px;
+	transition:0.75s ease;
+}
+
+#icon:hover{
+	color: rgba(229,0,101,1);
+	transition:0.75s ease;
+}
+
+/*textarea div*/
+#sendform{
+	height: 0px;
+}
+
+/*Down button that takes you to the bottom of the chat space*/
+#downBtn{
+	cursor: pointer;
+	margin-top: 5px;
+	margin-right: 5px;
+	border:none;
+	padding-right: 3px;
+	padding-bottom: 3px; 
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+	color:rgba(229,0,101,0.5);
+	background: transparent;
+	outline: none;
+	float: right;
+	transition : ease 0.75s;
+}
+
+#downBtn:hover{
+	border: none;
+	color:rgba(229,0,101,1);
+	transition : ease 0.75s;
+}
+
+/*more button private message*/
+#morebutton{
+	height: auto !important;
+	position: relative;
+	z-index: 100;
+	font-size: 40px;
+	border:none;
+	outline: none;
+	background: transparent;
+	color: rgba(229,0,101,1);
+	white-space: nowrap;
+}
+
+
+hr{
+	color: transparent !important;
+}
+
+/*Unread messages badges on recent and group radio*/
+#unreadradio{
+	position: relative;
+	bottom:23px;
+	left:7px;
+	color: black;
+	font-size: 15px;
+}
+
+.unreadradio1{
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 20px;
+	width: auto;
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	left: 7px;
+	font-size: 12px;
+}
+
+/*group message from*/
+.from{
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+/*groupsul > li name*/
+#content #groupsul > p{
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(229,0,101,0.7);
+}
+
+/*moreMessages button for group*/
+#moreMessagesgroup{
+	font-size: 30px;
+    margin-right: 25px;
+    margin-top: -20px;
+    margin-left: 30px;
+    opacity: 0.7;
+    float: right;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#moreMessagesgroup:hover{
+	opacity: 1;
+	transition:0.6s ease;
+}
+
+/*group name bar buttons tooltip*/
+#addusers:hover .tooltiptext{
+	visibility: visible;
+	transition: 1s ease;
+}
+
+#removeusers:hover .tooltiptext{
+	visibility: visible;
+	transition: 1s ease;
+}
+
+#deletegroup:hover .tooltiptext{
+	visibility: visible;
+	transition: 1s ease;
+}
+
+.tooltiptext {
+	font-size: 15px;
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    color: #fff;
+    opacity: 50%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 100;
+}
+
+/*group name bar buttons*/
+#addusers{
+	font-size: 30px;
+	opacity: 0.7;
+	float: right;
+	cursor: pointer;
+	transition:0.6s ease;
+}
+
+#addusers:hover{
+	opacity: 1;
+	transition:0.6s ease;
+}
+
+#removeusers{
+	font-size: 30px;
+	opacity: 0.7;
+	float: right;
+	cursor: pointer;
+	transition:0.6s ease;
+}
+
+#removeusers:hover{
+	opacity: 1;
+	transition:0.6s ease;
+}
+
+#deletegroup{
+	font-size: 30px;
+	opacity: 0.7;
+	float: right;
+	cursor: pointer;
+	transition:0.6s ease;
+}
+
+#deletegroup:hover{
+	opacity: 1;
+	transition:0.6s ease;
+}
+
+.user table > i{
+	font-size: 40px;
+}
+
+/*Go back link in modal*/
+#modalgoback{
+	background: transparent;
+	color: rgba(255,255,255,0.5);
+	border: 2px solid rgba(255,255,255,0.5);
+	border-radius: 10px;
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: 15px;
+	-moz-box-shadow:    2px 2px 2px 2px rgb(255,255,255);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(255,255,255);
+  	box-shadow:         2px 2px 2px 2px rgb(255,255,255);
+  	transition:0.5s ease;
+  	outline: none;
+}
+
+#modalgoback:hover{
+	border:2px solid rgba(255,255,255,1);
+	color:rgba(255,255,255,1);
+	box-shadow: none;
+	transition:0.5s ease;
+}
+
+/*group more messages button*/
+#groupmore{
+	margin-top: 15px;
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	background-color: rgba(247,178,208,0.4);
+	height: 50px;
+	width: auto;
+	border: 2px solid rgba(229,0,101,0.4);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: rgba(229,0,101,0.6);
+	-moz-box-shadow:    2px 2px 2px 2px rgb(229,0,101);
+  	-webkit-box-shadow: 2px 2px 2px 2px rgb(229,0,101);
+  	box-shadow:         2px 2px 2px 2px rgb(229,0,101);
+}
+
+#groupmore:hover{
+	border: 2px solid rgba(229,0,101,1);
+	color: rgb(229,0,101);
+	opacity: 1;
+	transition:0.5s ease-in;
+	box-shadow: none;
+}

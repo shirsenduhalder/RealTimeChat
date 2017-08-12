@@ -1,0 +1,492 @@
+body{
+	letter-spacing: 1px;
+	background-color: #fff;
+	background-image: url('../../background.jpg');
+	background-attachment: fixed;
+}
+
+#logo-main{
+	text-align: center;
+	max-height: 70px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+#already{
+	background-color: black;
+	width:50%;
+	margin-left: 30px;
+}
+
+#signuplogin{
+	padding:10px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#login{
+	margin: 30px 70px 0px 70px;
+	border-top:1px solid rgba(229,0,101,0.2);
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#login > p {
+	font-family: 'Open Sans', cursive;
+	font-size: 27px;
+	color: rgba(255,255,255,0.6);
+}
+
+#loginbutton{
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	background-color: rgba(63,63,63,0.2);
+	height: 50px;
+	width: 120px;
+	border: 2px solid rgba(229,0,101,0.3);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.4;
+	-moz-box-shadow:    2px 2px 2px 2px #000;
+  	-webkit-box-shadow: 2px 2px 2px 2px #000;
+  	box-shadow:         2px 2px 2px 2px #000;
+  	transition:0.5s ease-out;
+}
+
+#loginbutton > a{
+	color: #fff;
+	opacity: 0.4;
+	text-decoration: none;
+	transition:0.5s ease-out;
+}
+
+#loginbutton > a:hover{
+	color: #fff;
+	opacity: 1;
+	transition:0.5s ease-in;
+}
+
+#signupbutton{
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	color: rgba(229,0,101,0.3);
+	font-weight: bold;
+	background-color: rgba(63,63,63,0.2);
+	border: 2px solid rgba(229,0,101,1);
+	height: 50px;
+	width: 150px;
+	color: rgba(229,0,101,0.3);
+	box-shadow: none;
+	outline:none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.4;
+	-moz-box-shadow:    2px 2px 2px 2px #000;
+  	-webkit-box-shadow: 2px 2px 2px 2px #000;
+  	box-shadow:         2px 2px 2px 2px #000;
+  	transition:0.5s ease-out;
+}
+
+#signupbutton:hover{
+	color: rgba(229,0,101,1);
+	border: 2px solid rgba(229,0,101,1);
+	color: #fff;
+	opacity: 1;
+	transition:0.5s ease-in;
+}
+
+#loginbutton:hover{
+	color: rgba(229,0,101,1);
+	border: 2px solid rgba(229,0,101,1);
+	color: #fff;
+	opacity: 1;
+	transition:0.5s ease-in;
+}
+
+#messages{
+	text-align: center;
+}
+
+#signuperror{
+	text-align: center;
+	padding-left: 50px;
+}
+
+.wrongalert{
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: #fff;
+	max-width: 400px;
+	font-weight: bold;
+	font-size: 32px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 10px;
+	background: rgba(255,255,255,0.2); 
+}
+
+.alertmessage{
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: rgba(229,0,101,0.8);
+	max-width: 400px;
+	font-weight: bold;
+	font-size: 32px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 10px;
+	background: rgba(255,255,255,0.2); 
+}
+
+#signupdescription{
+	background-color: rgba(42,42,42,0.8);
+	padding: 20px;
+	padding-bottom: 5px;
+	margin: 15px;
+	border-radius: 0px;
+	margin-top: 25px;
+	border: 3px solid rgba(229,0,101,0.2);
+  	border: 3px solid rgba(229,0,101,0.2);
+ 	border: 3px solid  rgba(229,0,101,0.2);
+}
+
+.signupdescription > ul > li > h3{
+	color:rgba(229, 0, 101,0.7);
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descriptionimage{
+	float: left;
+	max-width: 430px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+#signupformbackground{
+	background-color: #ffb6c7;
+	padding: 20px;
+	padding-bottom: 5px;
+	margin: 15px;
+	margin-top: 25px;
+	border-radius: 15px;
+}
+
+#descriptionlist{
+	border: none;
+}
+
+#signupheading{
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 27px;
+	color: rgba(255,255,255,1);
+}
+
+#signupheading:after{
+	content: '';
+	display: block;
+	margin:auto;
+	height: 2px;
+	width: 0px;
+	background:transparent;
+	transition : width 0.5s ease, background-color 0.5s ease;
+	-webkit-transition : width 0.5s ease, background-color 0.5s ease;
+	-moz-transition : width 0.5s ease, background-color 0.5s ease;
+	-o-transition : width 0.5s ease, background-color 0.5s ease;
+}
+
+#signupheading:hover{
+	transition: 0.5s ease-in;
+}
+
+#signupheading:hover:after{
+	width:73%;
+	background: rgba(255,255,255,0.8);
+}
+
+.form-group{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.glyphicon{
+	color: rgba(229,0,101,0.8);
+	height: 20px;
+}
+
+.control-label{
+	color: black;
+	margin-left: 2px;
+}
+
+#txtemail{
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(255,255,255,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtemail:focus {   
+    border-color: rgba(229,0,101,0.5);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtemail::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtemail::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtemail::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtpass{
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(255,255,255,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtpass:focus {   
+    border-color: rgba(229,0,101,0.5);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtpass2:focus {   
+    border-color: rgba(229,0,101,0.5);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtuname:focus {   
+    border-color: rgba(229,0,101,0.5);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#userRealname:focus {   
+    border-color: rgba(229,0,101,0.5);
+    outline: 0 none;
+    transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtpass::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtpass::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtpass::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtpass2{
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(255,255,255,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtpass2::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtpass2::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtpass2::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtuname{
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(255,255,255,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#txtuname::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtuname::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#txtuname::-ms-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#userRealname{
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Advent Pro', sans-serif;
+	color: rgba(255,255,255,1);
+	margin-left: 5px;
+	height:40px;
+	border-radius: 20px;
+	padding-left: 15px;
+	box-shadow: none;
+	background-color: transparent;
+	transition: 1s ease;
+	-webkit-transition : 1s ease;
+	-moz-transition :1s ease;
+	-o-transition : 1s ease;
+}
+
+#userRealname::-webkit-input-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#userRealname::-moz-placeholder{
+	font-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#userRealname::-ms-input-placeholder{
+	fuserRealnameont-family: 'Advent Pro', sans-serif;
+	color: #fff;
+	opacity: 0.5;
+}
+
+#button{
+	text-align: center;
+}
+
+#login > p:after{
+	content: '';
+	display: block;
+	margin:auto;
+	height: 2px;
+	width: 0px;
+	background:transparent;
+	transition : width 0.5s ease, background-color 0.5s ease;
+	-webkit-transition : width 0.5s ease, background-color 0.5s ease;
+	-moz-transition : width 0.5s ease, background-color 0.5s ease;
+	-o-transition : width 0.5s ease, background-color 0.5s ease;
+}
+
+#login > p:hover{
+	transition: 0.5s ease-in;
+}
+
+#login > p:hover:after{
+	width:64%;
+	background: rgba(255,255,255,0.8);
+}

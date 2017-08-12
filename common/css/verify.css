@@ -1,0 +1,122 @@
+/*body*/
+body{
+	letter-spacing: 1px;
+	background-color: #fff;
+	background-image: url('../background.jpg');
+	background-attachment: fixed;
+	text-align: center;
+}
+
+/*logo*/
+#logo{
+	text-align: center;
+}
+
+#logo-main{
+	text-align: center;
+	max-height: 70px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+
+/*container*/
+.container{
+	background-color: rgba(42,42,42,0.9);
+	border-radius: 25px;
+	max-width: 450px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+/*alert messages*/
+.alertmessage{
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: rgba(229,0,101,0.9);
+	max-width: 400px;
+	font-size: 22px;
+	margin-top: 40px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 10px;
+	margin-left: 10px;
+	background: rgba(255,255,255,0.2); 
+}
+
+.wrongalert{
+	letter-spacing: 1px;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: rgba(229,0,101,1);
+	max-width: 400px;
+	font-weight: bold;
+	margin-left: 10px;
+	font-size: 32px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	height: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 10px;
+	background: rgba(255,255,255,0.2); 
+}
+
+
+/*links css*/
+.links{
+	text-align: center;
+	margin-top: 20px;
+	height: 50px;
+	padding-top: 6px;
+	border-radius: 25px;
+	transition:0.5s ease-out;
+}
+
+.links > a{
+	margin-top: 20px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(255,255,255,0.5);
+	font-size: 20px;
+	white-space: nowrap;
+	transition:0.5s ease-out;
+}
+
+.links > a:after{
+	text-decoration: none;
+	content: '';
+	display: block;
+	margin: auto;
+	height:1px;
+	width: 0px;
+	background:transparent;
+	transition : width 0.5s ease, background-color 0.5s ease;
+	-webkit-transition : width 0.5s ease, background-color 0.5s ease;
+	-moz-transition : width 0.5s ease, background-color 0.5s ease;
+	-o-transition : width 0.5s ease, background-color 0.5s ease;
+}
+
+
+.links > a:hover{
+	text-decoration: none;
+	color: #fff;
+	transition:0.5s ease-in;
+}
+
+.links > a:hover:after{
+	text-decoration: none;
+	width: 100%;
+	background: #fff;
+}
